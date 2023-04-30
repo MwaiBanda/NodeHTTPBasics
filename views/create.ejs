@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Blog</title>
+</head>
+<body>
+    <%- include("./components/nav.ejs")%>  
+
+    <div class="create-blog content">
+        <form>
+            <label for="title"> Title: </label>
+            <input type="text" id="title" required> 
+            <label for="snippet"> Snippet: </label>
+            <input type="text" id="snippet" required>
+            <label for="body"> Body: </label>
+            <textarea type="text" id="body"> </textarea>
+            <button>Submit</button>
+        </form>
+    </div>
+    <%- include("./components/footer.ejs")%>  
+</body>
+</html>

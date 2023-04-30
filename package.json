@@ -1,0 +1,25 @@
+{
+  "name": "nodehttpbasics",
+  "version": "1.0.0",
+  "description": "Basic http requests with node",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MwaiBanda/NodeHTTPBasics.git"
+  },
+  "author": "Mwai Banda",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MwaiBanda/NodeHTTPBasics/issues"
+  },
+  "homepage": "https://github.com/MwaiBanda/NodeHTTPBasics#readme",
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "lodash": "^4.17.21"
+  }
+}
