@@ -1,6 +1,9 @@
 const express = require('express')
 const app = express()
 
+import morgan from 'morgan'
+import mongoose from 'mongoose'
+
 // register view engine
 app.set('view engine', 'ejs')
 
